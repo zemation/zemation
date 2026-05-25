@@ -62,16 +62,12 @@ Currently running a homelab with a multi-node Kubernetes cluster, Jenkins, Prome
 ### [ansible-learnlinux](https://github.com/zemation/ansible-learnlinux)
 Multi-distro infrastructure automation using Vagrant and Ansible — provisions and configures web, database, and file servers across Rocky Linux and Ubuntu. Demonstrates role-based playbook structure, Jinja2 templating, and cross-distribution configuration management.
 
-### [cloud-master-io-library](https://github.com/zemation/cloud-master-io-library)
-A personal reference library of technical notes and study guides covering Linux, cloud services, containers, networking, security, and more — organized by topic and built up over years of hands-on learning and certification study.
-
 ---
 
 ## 🌐 Find Me
 
 - 🌍 [zemation.com](http://www.zemation.com)
 - ☁️ [acloudengineer.com](http://www.acloudengineer.com)
-- 🐦 [@zemation](https://twitter.com/zemation)
 
 ---
 
