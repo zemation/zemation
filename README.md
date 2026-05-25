@@ -66,7 +66,6 @@ Multi-distro infrastructure automation using Vagrant and Ansible — provisions 
 
 ## 🌐 Find Me
 
-- 🌍 [zemation.com](http://www.zemation.com)
 - ☁️ [acloudengineer.com](http://www.acloudengineer.com)
 
 ---
