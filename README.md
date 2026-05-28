@@ -1,5 +1,4 @@
 # Hey, I'm Robert 👋
-
 DevOps & Cloud Engineer based in Salt Lake City with 20+ years in the industry. I build and automate infrastructure, manage Linux systems, and am actively expanding into Kubernetes, CI/CD pipelines, and cloud-native tooling.
 
 Currently running a homelab with a multi-node Kubernetes cluster, Jenkins, Prometheus, Grafana, Alertmanager, and Ansible — all on Rocky Linux.
@@ -14,6 +13,7 @@ Currently running a homelab with a multi-node Kubernetes cluster, Jenkins, Prome
 
 **Infrastructure & Automation**
 - Ansible
+- Terraform
 - Vagrant
 - Jenkins (CI/CD)
 - Docker
@@ -32,6 +32,7 @@ Currently running a homelab with a multi-node Kubernetes cluster, Jenkins, Prome
 **Languages & Scripting**
 - Python
 - Bash
+- Go
 - PowerShell
 - YAML / Jinja2
 
@@ -85,11 +86,33 @@ sysinfo disk --json          # disk usage as JSON
 
 **Stack:** Go · Cobra · Linux
 
+---
+
+### [terraform-digital-ocean](https://github.com/zemation/terraform-digital-ocean)
+Terraform configuration for provisioning a DigitalOcean droplet with cloud-init bootstrapping on first boot. Variables-driven — image, size, region, and application version all configurable.
+
+```bash
+terraform init
+terraform apply  # droplet up in under 60 seconds
+```
+
+**Stack:** Terraform · DigitalOcean · cloud-init · Ubuntu
+
+---
+
+### [terraform-aws](https://github.com/zemation/terraform-aws)
+Terraform configuration for provisioning a full AWS environment including VPC, public subnet, internet gateway, security groups, IAM role, and EC2 instance. Remote state stored in S3 with DynamoDB state locking.
+
+```bash
+terraform init
+terraform apply  # full AWS environment in under 30 seconds
+```
+
+**Stack:** Terraform · AWS · VPC · EC2 · IAM · S3 · cloud-init · Ubuntu
 
 ---
 
 ## 🌐 Find Me
-
 - ☁️ [acloudengineer.com](http://www.acloudengineer.com)
 
 ---
